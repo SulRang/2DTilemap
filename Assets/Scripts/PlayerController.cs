@@ -20,8 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
-        animator.SetFloat("dirX", x);
-        animator.SetFloat("dirY", y);
+        animator.SetFloat("dirX", transform.GetChild(0).position.x - transform.position.x);
         rigidbody2D.velocity = new Vector2(x, y) * moveSpeed;
         animator.SetBool("isMove",rigidbody2D.velocity.magnitude > 0);
     }
