@@ -6227,7 +6227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1920366206
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6533,6 +6533,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6596396919995489067, guid: 08a71d7ea2893f041bcd89cac9b11d62, type: 3}
+      propertyPath: hpBar
+      value: 
+      objectReference: {fileID: 330200067}
     - target: {fileID: 6596396919995489067, guid: 08a71d7ea2893f041bcd89cac9b11d62, type: 3}
       propertyPath: dropItem
       value: 
